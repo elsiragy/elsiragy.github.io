@@ -101,11 +101,11 @@ form#signup input:checked +label{
     color: #ffd34c;
 }
 
-form#signup input[type="chechbox"]:checked+label{
+form#signup input[type="checkbox"]:checked + label{
     background-position: 0px -20px;
 }
 
-form#signup input[type="radio"]:checked+label{
+form#signup input[type="radio"]:checked + label{
     background-position: 0px -60px;
 }
 
